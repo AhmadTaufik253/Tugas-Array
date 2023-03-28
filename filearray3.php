@@ -11,7 +11,6 @@ $m8 = ['NIM'=>'2011501668','nama'=>'Opik', 'nilai'=>85];
 
 $mahasiswa = [$m1,$m2,$m3,$m4,$m5,$m6,$m7,$m8];
 $ar_judul = ['No','NIM','Nama','Nilai','Grade','Predikat'];
-// $ar_judul = ['No','NIM','Nama','Nilai','Keterangan','Grade','Predikat'];
 
 // keterangan
 $jumlah_mahasiswa = count($mahasiswa);
@@ -28,13 +27,6 @@ $keterangan = [
     'Rata - Rata'=>$rata_rata,
 ];
 
-/*
-Tugas
-1. Buat grade
-2. Buat keterangan jumlah mahasiswa, nilai tertinggi, nilai terendah, rata-rata masukan kedalam tfoot
-3. Buat predikat dari nilai menggunakan switch case
-
-*/
 ?>
 
 <table border="1" width="100%" bgcolor="#f2f2f2" > 
